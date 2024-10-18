@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
-<properties>
-<comment>Saved on Fri Oct 18 02:27:45 UTC 2024</comment>
-<entry key="database.api.enabled">true</entry>
-<entry key="db.invalidPoolTimeout">5s</entry>
-<entry key="debug.printDebugToScreen">true</entry>
-</properties>
