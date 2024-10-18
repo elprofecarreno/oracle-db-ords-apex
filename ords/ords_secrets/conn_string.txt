@@ -1,0 +1,1 @@
+CONN_STRING=sys/Oracle123@oracle-db-container:1521/xepdb1

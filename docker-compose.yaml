@@ -1,0 +1,35 @@
+version: '3'
+
+networks:
+  # NET CONTAINERS
+  oracle-apex-networks:
+
+services:
+  # ORACLE DATABASE 21.3.0 XE CONTAINER
+  oracle-db-container:
+    image: container-registry.oracle.com/database/express:21.3.0-xe
+    environment:
+      # SYS PASSWORD
+      ORACLE_PWD: "Oracle123"
+    ports:
+      # PORT DATABASE -> USER: system - PASSWORD: Oracle123 - PORT: 8521 - SERVICE NAME: xepdb1
+      - 8521:1521
+      # PORT EM APP -> http://localhost:8500/em
+      - 8500:5500
+    networks:
+      - oracle-apex-networks
+  # ORACLE ORDS + APEX CONTAINER
+  oracle-ords-app-container:
+    image: container-registry.oracle.com/database/ords:22.4.0
+    ports:
+      # PORT 8181 -> http://localhost:8181:/ords
+      - 8181:8181
+    volumes:
+      - ./ords/ords_secrets:/opt/oracle/variables
+      - ./ords/ords_config:/etc/ords/config
+
+    depends_on:
+      oracle-db-container:
+        condition: service_healthy
+    networks:
+      - oracle-apex-networks      
