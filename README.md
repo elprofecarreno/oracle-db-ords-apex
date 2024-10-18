@@ -6,6 +6,15 @@ Project APEX installation comand.
 docker compose up
 ```
 
+![01.png](./img/01.png)
+
+![02.png](./img/02.png)
+
+![03.png](./img/03.png)
+
+![04.png](./img/04.png)
+
+
 ### EM
 
 ```shell
@@ -17,10 +26,15 @@ USER:       system
 PASSWORD:   Oracle123
 ```
 
+![06.png](./img/06.png)
+
+![07.png](./img/07.png)
+
+
 ### APEX
 
 ```shell
-https://localhost:8181/ords
+http://localhost:8181/ords
 ```
 
 ```shell
@@ -28,3 +42,20 @@ WORKSPACE:      internal
 USER:           ADMIN
 PASSWORD:       Welcome_1
 ```
+
+![05.png](./img/05.png)
+
+![08.png](./img/08.png)
+
+
+### SQLDEVELOPER
+
+
+```shell
+USER:               system
+PASSWORD:           Oracle123
+PORT:               8521
+SERVICE NAME:       xepdb1
+```
+
+![09.png](./img/09.png)

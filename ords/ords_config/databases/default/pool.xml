@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Saved on Fri Oct 18 02:27:48 UTC 2024</comment>
+<entry key="db.connectionType">basic</entry>
+<entry key="db.hostname">oracle-db-container</entry>
+<entry key="db.port">1521</entry>
+<entry key="db.servicename">xepdb1</entry>
+<entry key="db.username">ORDS_PUBLIC_USER</entry>
+<entry key="feature.sdw">true</entry>
+<entry key="jdbc.InitialLimit">10</entry>
+<entry key="jdbc.MaxLimit">30</entry>
+<entry key="plsql.gateway.mode">proxied</entry>
+<entry key="restEnabledSql.active">true</entry>
+<entry key="security.requestValidationFunction">ords_util.authorize_plsql_gateway</entry>
+</properties>
