@@ -3,7 +3,7 @@
 Project APEX installation comand.
 
 ```shell
-docker compose up
+sh deploy.sh
 ```
 
 ![01.png](./img/01.png)
