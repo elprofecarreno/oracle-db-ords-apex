@@ -62,4 +62,11 @@ SERVICE NAME:       xepdb1
 
 ### YOUTUBE
 
+**INSTALAR APEX**
 [![youtube.jpg](https://img.youtube.com/vi/VaumYDXX7L0/0.jpg)](https://www.youtube.com/watch?v=VaumYDXX7L0)
+
+**MI PRIMER APP EN APEX**
+[![youtube.jpg](https://img.youtube.com/vi/VaumYDXX7L0/0.jpg)](https://www.youtube.com/watch?v=sdf_PpHlQ8A)
+
+
+
