@@ -1,9 +1,17 @@
-## ORACLE DATABASE + ORDS + APEX
+## ORACLE DATABASE + ORDS + APEX (WITH DOCKER)
 
 Project APEX installation comand.
 
+**LINUX**
+
 ```shell
 sh deploy.sh
+```
+
+**WINDOWS**
+
+```shell
+deploy.bat
 ```
 
 ![01.png](./img/01.png)
